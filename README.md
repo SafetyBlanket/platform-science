@@ -12,6 +12,15 @@
 If you are using the files already provided, you can just copy the following `npm start -- shipments.txt drivers.txt` into the terminal.
 You can start a debugging session using the following `npm run debug -- shipments.txt drivers.txt`.
 
+### Some things to note
+
+-   The name of the files to pass in the command line argument should be the name (with extension) of a file located in the `<project root>/data` directory.
+-   I tried to keep the code simple with few dependencies
+    -   [ts-node](https://www.npmjs.com/package/ts-node) - Typescript runtime for Node so I can use TypeScript and not have to compile or anything
+    -   [chalk](https://www.npmjs.com/package/chalk) - So I can colorize the output - makes it a bit easier to see data in console
+-   I did use JSDocs with a lot of the function definitions so you can see them pop up in intellisense - however, this documation is probably a little more than I would normally do since I try to keep express more with syntax than words.
+-   I didn't include tests or hooks; however, I did use prettier - so if you see syntax like missing semicolons, it can change.
+
 <br>
 
 ## Challenge
