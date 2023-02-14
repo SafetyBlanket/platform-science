@@ -1,0 +1,20 @@
+{
+  "name": "platform-science",
+  "version": "1.0.0",
+  "description": "Code challenge",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --require ts-node/register ./src/index.ts",
+    "debug": "node --inspect-brk --require ts-node/register ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Moore",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ts-node": "^10.9.1"
+  }
+}
